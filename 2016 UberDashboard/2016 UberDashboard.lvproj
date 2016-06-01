@@ -29,6 +29,8 @@
 		<Item Name="App EXE.ico" Type="Document" URL="../App EXE.ico"/>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="UberICO.ico" Type="Document" URL="../UberICO.ico"/>
+		<Item Name="TakePictures.vi" Type="VI" URL="../TakePictures.vi"/>
+		<Item Name="ProcessImagesManual.vi" Type="VI" URL="../ProcessImagesManual.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -225,6 +227,7 @@
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="Connection Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Connection Info.vi"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -737,6 +740,42 @@
 				<Property Name="TgtF_fileDescription" Type="Str">FRC_Dashboard_2015_beta</Property>
 				<Property Name="TgtF_internalName" Type="Str">FRC_Dashboard_2015_beta</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{35AEF791-F77F-4C2B-A349-B09B31E06E2A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
+			</Item>
+			<Item Name="FRC_Dashboard_2016_bc17" Type="EXE">
+				<Property Name="App_INI_aliasGUID" Type="Str">{8AF0224F-0D21-4496-B2E9-4EDE6CC185BE}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{124D537F-D8AB-46EA-A134-C026340D1A9F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A9DCC072-511D-4963-8079-971C67FD9E84}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Build Dashboard Main.vi into an EXE that will respond to the driver station and display robot information on a PC.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FRC_Dashboard_2016_bc17</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/FRC_Dashboard_2016_bc17</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1DE44357-2435-47B7-8DA8-0F472CC3F7DC}</Property>
+				<Property Name="Bld_version.build" Type="Int">32790</Property>
+				<Property Name="Bld_version.major" Type="Int">15</Property>
+				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/FRC_Dashboard_2016_bc17/Dashboard.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/FRC_Dashboard_2016_bc17/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UberICO.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7574F621-6096-40B9-B85F-497941A59199}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FRC_Dashboard_2015_beta</Property>
+				<Property Name="TgtF_internalName" Type="Str">FRC_Dashboard_2015_beta</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D6BB283A-D27C-48FF-B9C7-26A08D120E37}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
 			</Item>
 		</Item>
