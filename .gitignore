@@ -8,8 +8,5 @@
 *.so.*
 *.dylib
 
-# Executables
-
 # Metadata
-*.aliases
 *.lvlps
