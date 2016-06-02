@@ -9,7 +9,6 @@
 *.dylib
 
 # Executables
-*.exe
 
 # Metadata
 *.aliases
