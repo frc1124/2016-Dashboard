@@ -778,6 +778,49 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D6BB283A-D27C-48FF-B9C7-26A08D120E37}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
 			</Item>
+			<Item Name="FRC_Dashboard_2016_resize" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A5325E13-954D-4424-8922-30A65CE4FB5E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1FBE4650-F74B-48DD-8412-CCD536452A99}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.UberBots.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{06E763EF-3E27-42C0-B6BE-9C07DB78C3F7}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FRC_Dashboard_2016_resize</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/FRC_Dashboard_2016_resize</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E9DB38DF-7203-425E-B96F-6391C9104E65}</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/FRC_Dashboard_2016_resize/Dashboard.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/FRC_Dashboard_2016_resize/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UberICO.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DDA4DAC7-58BB-4D45-A17E-9FA03A27CDB4}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">UberBots</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FRC_Dashboard_2016_resize</Property>
+				<Property Name="TgtF_internalName" Type="Str">FRC_Dashboard_2016_resize</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 UberBots</Property>
+				<Property Name="TgtF_productName" Type="Str">FRC_Dashboard_2016_resize</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E8EE531A-AA12-406F-A497-F861AE856E9E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Dashboard.exe</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
